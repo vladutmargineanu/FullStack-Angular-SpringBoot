@@ -49,7 +49,7 @@ ng generate class sales-person-list/SalesPerson
 
 ```
 
-### Parameter Properties in construcotor for classes
+### Parameter Properties in constructor for classes
 ```
 constructor(public firstName: string, public lastName: string) {}
 ```
