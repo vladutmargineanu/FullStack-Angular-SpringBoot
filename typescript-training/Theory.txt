@@ -1,0 +1,2 @@
+1. In typescript, everything is public by default.
+
