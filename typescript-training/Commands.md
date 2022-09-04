@@ -32,3 +32,37 @@ tsc --init
 ``` 
 tsc --build --clean  
 ```
+
+### Creating an Angular project - Angular CLI
+``` 
+npm install --location=global @angular/cli@14.0.7
+
+ng version
+
+ng help
+
+```
+
+### Creating a new Angular project - Angular CLI
+``` 
+ng new my-first-angular-project
+
+```
+
+### Running the Angular App
+``` 
+cd <your-project-name>
+
+ng serve
+
+ng serve --open
+
+```
+
+### Change the Server Port
+``` 
+ng serve --port 5100
+
+ng serve --port 5100 --open
+
+```
