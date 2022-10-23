@@ -53,3 +53,13 @@ ng generate class sales-person-list/SalesPerson
 ```
 constructor(public firstName: string, public lastName: string) {}
 ```
+
+### Install bootstrap locally using npm
+```
+npm install bootstrap@5.2.0
+```
+
+### Install Fonst Awesome locally using npm
+```
+npm install @fortawesome/fontawesome-free
+```
