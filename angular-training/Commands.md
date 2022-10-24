@@ -63,3 +63,9 @@ npm install bootstrap@5.2.0
 ```
 npm install @fortawesome/fontawesome-free
 ```
+
+### IDE Visual Studio Code
+```
+install Extension - Angular Language Service.
+View > Extensions
+```
