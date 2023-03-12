@@ -69,3 +69,43 @@ npm install @fortawesome/fontawesome-free
 install Extension - Angular Language Service.
 View > Extensions
 ```
+
+### Components in ng-bootstrap
+```
+https://ng-bootstrap.github.io/
+```
+
+### Install ng-bootstrap
+```
+ng add @angular/localize
+
+npm install @ng-bootstrap/ng-bootstrap@13.0.0
+```
+
+### Update Angular CLI
+```
+ng update @angular/cli @angular/core
+
+```
+
+### Dependencies
+```
+https://ng-bootstrap.github.io/#/getting-started#dependencies
+https://stackoverflow.com/questions/60348728/after-i-install-ng-bootstrap-and-compile-i-get-this-error/60909485#60909485
+https://stackoverflow.com/questions/57459917/how-to-fix-this-error-module-not-found-cant-resolve-popper-js
+
+npm install popper.js --save
+
+```
+
+
+### package.json
+```
+{
+  // ... rest
+  "dependencies": {
+    "@popperjs/core": "^2.11.4",
+  },
+}
+
+```
